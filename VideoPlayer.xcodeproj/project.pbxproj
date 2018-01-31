@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C03E6066202216B90071A36D /* test.MOV in Resources */ = {isa = PBXBuildFile; fileRef = C03E6065202216B90071A36D /* test.MOV */; };
 		C0DDE4A92020981E001C719C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DDE4A82020981E001C719C /* AppDelegate.swift */; };
 		C0DDE4AB2020981E001C719C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DDE4AA2020981E001C719C /* ViewController.swift */; };
 		C0DDE4AE2020981E001C719C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0DDE4AC2020981E001C719C /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C03E6065202216B90071A36D /* test.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = test.MOV; sourceTree = "<group>"; };
 		C0DDE4A52020981E001C719C /* VideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0DDE4A82020981E001C719C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0DDE4AA2020981E001C719C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		C0DDE4A72020981E001C719C /* VideoPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				C03E6065202216B90071A36D /* test.MOV */,
 				C0DDE4A82020981E001C719C /* AppDelegate.swift */,
 				C0DDE4AA2020981E001C719C /* ViewController.swift */,
 				C0DDE4AC2020981E001C719C /* Main.storyboard */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C03E6066202216B90071A36D /* test.MOV in Resources */,
 				C0DDE4B32020981E001C719C /* LaunchScreen.storyboard in Resources */,
 				C0DDE4B02020981E001C719C /* Assets.xcassets in Resources */,
 				C0DDE4AE2020981E001C719C /* Main.storyboard in Resources */,
@@ -429,11 +433,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6TW975U2T3;
 				INFOPLIST_FILE = VideoPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.kronos.iaspeedgun.videoplayer.VideoPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -444,11 +449,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6TW975U2T3;
 				INFOPLIST_FILE = VideoPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.kronos.iaspeedgun.videoplayer.VideoPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
